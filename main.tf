@@ -63,6 +63,6 @@ module "hosted_zone" {
 
 module "aws_ceritification_manager" {
   source         = "./certificate-manager"
-  domain_name    = "jenkins.jhooq.org"
+  domain_name    = "jenkins.com"
   hosted_zone_id = module.hosted_zone.hosted_zone_id
 }*/
